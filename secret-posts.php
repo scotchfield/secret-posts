@@ -23,8 +23,6 @@ class WP_Secret_Posts {
 	 * Instantiate, if necessary, and add hooks.
 	 */
 	public function __construct() {
-		global $wpdb;
-
 		if ( isset( self::$instance ) ) {
 			wp_die( esc_html__(
 				'WP_Secret_Posts is already instantiated!',
@@ -90,8 +88,6 @@ views or this date:
 	}
 
 	public function check_the_post( $post ) {
-		global $wpdb;
-
 		$views = intval( get_post_meta( $post->ID, 'secret_posts_views', true ) );
 		$date = get_post_meta( $post->ID, 'secret_posts_date', true );
 
