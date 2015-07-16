@@ -12,6 +12,7 @@ Mark WordPress posts as private after a specified number of page views or time.
 
 == Description ==
 
+Adds a meta box to the post editing page with two options: number of views remaining, and the date to automatically expire access.
 
 == Installation ==
 
@@ -25,8 +26,7 @@ No, pages are marked as private.
 
 == Screenshots ==
 
-1. 
-2. 
+1. The meta box added to the post editor.
 
 == Changelog ==
 
