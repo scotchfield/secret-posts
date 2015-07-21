@@ -41,7 +41,6 @@ class WP_Secret_Posts {
 		return self::$instance;
 	}
 
-
 	/**
 	 * Initialize meta box.
 	 */
